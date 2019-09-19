@@ -1,0 +1,117 @@
+.homebg{
+    background-image: url(https://data.whicdn.com/images/186189639/large.jpg);
+    max-height: 40vh;
+}
+
+.mariobg{
+    background-image: url(https://i.pinimg.com/originals/05/06/45/050645f9efabc06487aa1cb76369c35b.jpg);
+    max-height: 40vh;
+}
+
+.pokemonbg{
+    background-image: url(https://www.numerama.com/content/uploads/2015/11/pokemon-list.jpg);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.5em;
+    display: flex;
+    min-width: 10vw;
+    min-height: 40vh;
+}
+
+li {
+    
+    padding: 0;
+    justify-content: flex-end;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    min-width: 2vw;
+    
+}
+
+li:first-of-type {
+    margin-right: auto;
+}
+
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+
+}
+
+body {
+    margin: 0;
+    background-color: aliceblue;
+    font-family: fantasy;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 2vw;
+    
+}
+
+.grid > section {
+    padding: 0.1em;
+    background: gold;
+    text-align: center;
+    border: 0.2em solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+.grid > section > article > img {
+    padding: 1em;
+}
+
+.begin,
+h1 {
+    padding: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home{
+    width: 80px;
+    height: 80px;
+    padding: 1em;
+}
+
+.wit{
+    width: 50px;
+    height:50px;
+    background-color: white;
+}
+
+nav{
+    
+}
+
+.sonicbg{
+    background-image: url(https://3.bp.blogspot.com/-ykan-HLvdWo/XElAHCJGuJI/AAAAAAAAHz0/hKSYmi3sUZsrNZcaKrkV1keRMDrBLEbBgCHMYCw/s1600/this-is-fanart-sonic-mania-know-your-meme.jpg);
+    background-repeat: no-repeat; 
+    max-height: 40vh;
+}
+
+.inazumabg{
+    background-image: url(https://wallpapercave.com/wp/wp1823328.jpg);
+    max-height: 40vh;
+    background-repeat: no-repeat; 
+}
