@@ -25,6 +25,74 @@
         </nav>
 
     </header>
+    <main>
+        <h1 class="letters">Inazuma eleven spel: welke speler ben jij?</h1>
+
+        <p class="begin">Ben je een sterke keeper als Mark Evens, een vurige aanvaller net als Axel Blaze of een ijzige verdediger als Shawn Frost? Beantwoord hier drie vragen om uit te vinden wat voor speler jij bent.</p>
+
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Jouw gegevens</legend>
+                    <label for="name">Voornaam</label>
+                    <input id="name" required type="text">
+
+                    <label for="surname">Achternaam</label>
+                    <input id="surname" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Positie</legend>
+                    <p>Kies de positie waar je het meest tot aangetrokken voelt.</p>
+                    <label>
+                        <input type="radio" name="positie" value="aanvaller" />Aanvaller</label>
+                    <label>
+                        <input type="radio" name="positie" value="middenvelder" />Middenvelder
+                    </label>
+                    <label>
+                        <input type="radio" name="positie" value="verdediger" />Verdediger
+                    </label>
+                    <label>
+                        <input type="radio" name="positie" value="keeper" />Keeper
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Element</legend>
+                    <p>Kies het element die jou het meest aanspreekt.</p>
+                    <label>
+                        <input type="radio" name="element" value="water" />Water
+                    </label>
+                    <label>
+                        <input type="radio" name="element" value="aarde" />Aarde
+
+                    </label>
+                    <label>
+                        <input type="radio" name="element" value="vuur" />Vuur
+
+                    </label>
+                    <label>
+                        <input type="radio" name="element" value="lucht" />Lucht
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Move</legend>
+                    <p>Kies de move die je speler moet bezitten.</p>
+
+                    <label>
+                        <input type="radio" name="move" value="veil" />Mermaid's veil</label>
+                    <label>
+                        <input type="radio" name="move" value="god" />God hand
+                    </label>
+                </fieldset>
+                <button class="speler">En jij bent......</button>
+            </form>
+        </div>
+    </main>
+    <script src="animatie.js"></script>
 </body>
 
 </html>

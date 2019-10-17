@@ -256,3 +256,162 @@ button {
 
     text-align: center;
 }
+
+fieldset {
+    background-color: gold;
+    padding: 0.1em;
+    margin: 1em;
+    border: 0.1em solid black;
+    width: 40vw;
+}
+
+input, legend, p, label {
+     margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+label:hover {
+    background-color: lightgreen;
+}
+
+
+.main {
+    height: 500px;
+    width: 1000px;
+}
+
+
+
+.active {
+    background-color: darkblue;
+}
+
+
+
+footer {
+    background-color: white;
+    margin-top: 12px;
+    padding: 12px;
+    width: 400px;
+}
+
+.mario-bg {
+    background: url(https://cdn.reshift.nl/media/media/thumbnails/640x360/20171005113141485808813757744/marioluigisuperstarsaga_bowserminions_news-2017-08-28.jpg);
+
+}
+
+.sonic-bg {
+    background: url(http://images1.fanpop.com/images/photos/1400000/Sonic-wallpapers-sonic-the-hedgehog-1481666-500-400.jpg)
+}
+
+.pokemon-bg {
+    background: url(http://www.dan-dare.org/FreeFun/Images/CartoonsMoviesTV/PokemonWallpaper1024.jpg)
+}
+
+.tabel-bg {
+    background: url(https://pre00.deviantart.net/efae/th/pre/f/2015/119/c/c/the_ultimate_super_smash_bros_roster____by_yu_gi_omg-d8qcqxp.png)
+}
+
+.party {
+    display: flex;
+}
+
+
+.iframe {
+    background-color: white;
+}
+
+/*
+background: url(https://cdn.reshift.nl/media/media/thumbnails/640x360/20171005113141485808813757744/marioluigisuperstarsaga_bowserminions_news-2017-08-28.jpg ) 
+background: url(http://images1.fanpop.com/images/photos/1400000/Sonic-wallpapers-sonic-the-hedgehog-1481666-500-400.jpg)
+background: url(http://www.dan-dare.org/FreeFun/Images/CartoonsMoviesTV/PokemonWallpaper1024.jpg)
+*/
+
+
+
+.party {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: .75em;
+}
+
+table {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hoofdimage {
+    width: 800px;
+    height: 500px;
+}
+
+.afbeelding {
+    width: 300px;
+    height: 300px;
+}
+
+
+.party img{
+    width: 150px; 
+    height: 150px;
+}
+
+.foto img{
+    width:500px; 
+    height: 280px
+}
+
+.hoofdfoto img{
+    width: 800px; 
+    height: 533px
+}
+
+
+.tabel {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.odyssey {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.super {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    ;
+}
+
+.super > .party {
+    padding: 0.1em;
+    background: red;
+    text-align: center;
+    border: 0.2em solid black;
+    margin-left: 1em;
+    margin-right: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(1fr));
+    grid-auto-rows: 1fr;
+}
+
+.grid > .party > img {
+    padding: 1em;
+}
+
+.super > .party > h4, .super > .party > p{
+    color: white;
+}
+
