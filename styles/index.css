@@ -57,8 +57,8 @@ a {
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 3em;
+    height: 3em;
 
 }
 
@@ -109,14 +109,14 @@ h1 {
 }
 
 .home {
-    width: 80px;
-    height: 80px;
+    width: 5em;
+    height: 5em;
     padding: 1em;
 }
 
 .wit {
-    width: 50px;
-    height: 50px;
+    width: 3em;
+    height: 3em;
     background-color: white;
 }
 
@@ -294,8 +294,8 @@ input:focus {
 
 
 .main {
-    height: 500px;
-    width: 1000px;
+    height: 31em;
+    width: 62em;
 }
 
 .container {
@@ -310,29 +310,30 @@ input:focus {
 }
 
 .afbeelding {
-    width: 300px;
-    height: 300px;
+    width: 19em;
+    height: 19em;
 }
 
 
 .party img {
-    width: 100px;
-    height: 100px;
+    width: 6em;
+    height: 6em;
 }
 
 .foto img {
-    width: 500px;
-    height: 280px
+    width: 31em;
+    height: 18em;
 }
 
 .hoofdfoto img {
-    width: 800px;
-    height: 533px
+    width: 50em;
+    height: 33em;
 }
 
 .right {
     float: right;
     width: 40vw;
+    margin-right: 1em;
 }
 
 
@@ -387,13 +388,13 @@ input:focus {
     width: 40vw;
 }
 
-@media (max-width:1132px) {
+@media (max-width:71em) {
     .super {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 41em) {
     .grid {
         grid-template-columns: 1fr;
     }
@@ -414,7 +415,7 @@ input:focus {
 
 }
 
-@media (max-width: 1037px) {
+@media (max-width: 65em) {
     .left > article > img {
         height: 40vw;
         width: 50vw;
@@ -441,14 +442,14 @@ input:focus {
 
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 78em) {
     label {
         display: flex;
     }
 }
 
-@media (max-width:698px) {
-  .left > article > p {
+@media (max-width:44em) {
+    .left > article > p {
         width: 60vw;
         margin-left: auto;
         margin-right: auto;
