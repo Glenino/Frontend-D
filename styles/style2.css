@@ -1,0 +1,255 @@
+
+
+body {
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    padding: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+nav{
+    
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-align: center;
+
+}
+
+.pixel {
+    width: 400px;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0.75em;
+}
+
+li a:hover {
+    background-color: darkblue;
+}
+
+
+.main {
+    height: 500px;
+    width: 1000px;
+}
+
+
+
+.active {
+    background-color: darkblue;
+}
+
+
+
+footer {
+    background-color: white;
+    margin-top: 12px;
+    padding: 12px;
+    width: 400px;
+}
+
+.mario-bg {
+    background: url(https://cdn.reshift.nl/media/media/thumbnails/640x360/20171005113141485808813757744/marioluigisuperstarsaga_bowserminions_news-2017-08-28.jpg);
+
+}
+
+.sonic-bg {
+    background: url(http://images1.fanpop.com/images/photos/1400000/Sonic-wallpapers-sonic-the-hedgehog-1481666-500-400.jpg)
+}
+
+.pokemon-bg {
+    background: url(http://www.dan-dare.org/FreeFun/Images/CartoonsMoviesTV/PokemonWallpaper1024.jpg)
+}
+
+.tabel-bg {
+    background: url(https://pre00.deviantart.net/efae/th/pre/f/2015/119/c/c/the_ultimate_super_smash_bros_roster____by_yu_gi_omg-d8qcqxp.png)
+}
+
+.party {
+    display: flex;
+}
+
+
+.iframe {
+    background-color: white;
+}
+
+/*
+background: url(https://cdn.reshift.nl/media/media/thumbnails/640x360/20171005113141485808813757744/marioluigisuperstarsaga_bowserminions_news-2017-08-28.jpg ) 
+background: url(http://images1.fanpop.com/images/photos/1400000/Sonic-wallpapers-sonic-the-hedgehog-1481666-500-400.jpg)
+background: url(http://www.dan-dare.org/FreeFun/Images/CartoonsMoviesTV/PokemonWallpaper1024.jpg)
+*/
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: .75em;
+}
+
+
+
+p {
+    background-color: white;
+    padding: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+}
+
+h1 {
+    background-color: white;
+    padding: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px
+}
+
+h2 {
+    background-color: white;
+    padding: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px
+}
+
+h3 {
+    background-color: white;
+    padding: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px
+}
+
+h4 {
+    background-color: white;
+    padding: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px
+}
+
+strong {
+    background-color: white;
+    padding: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px
+}
+
+
+table {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hoofdimage {
+    width: 800px;
+    height: 500px;
+}
+
+.afbeelding {
+    width: 300px;
+    height: 300px;
+}
+
+td,
+th {
+    padding: 12px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: .75em;
+    overflow: hidden;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.party img{
+    width: 150px; 
+    height: 150px;
+}
+
+.foto img{
+    width:500px; 
+    height: 280px
+}
+
+.hoofdfoto img{
+    width: 800px; 
+    height: 533px
+}
+
+
+
+.tabel {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.odyssey {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
