@@ -38,7 +38,7 @@ li:hover {
     background-color: gold;
 }
 
-li:active{
+li:active {
     background-color: silver;
 }
 
@@ -46,7 +46,7 @@ li:first-of-type {
     margin-right: auto;
 }
 
-h2{
+h2 {
     font-size: 1.3em;
 }
 
@@ -102,7 +102,10 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
 
+.right {
+    justify-content: flex-end;
 }
 
 .home {
@@ -285,7 +288,7 @@ label:hover {
     background-color: lightgreen;
 }
 
-input:focus{
+input:focus {
     background-color: skyblue;
 }
 
@@ -325,6 +328,11 @@ input:focus{
 .hoofdfoto img {
     width: 800px;
     height: 533px
+}
+
+.right {
+    float: right;
+    width: 40vw;
 }
 
 
@@ -393,25 +401,57 @@ input:focus{
     .super {
         grid-template-columns: 1fr;
     }
+
+    .letters {
+        width: 60vw;
+    }
+
+    .left > article > p {
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
-@media (max-width: 1037px){
+@media (max-width: 1037px) {
     .left > article > img {
-    height: 40vw;
-    width: 50vw;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-   .left > article > p {
-    width: 90vw;
-}
- 
+        height: 40vw;
+        width: 50vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .left > article > p {
+        width: 45vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .begin > p {
+        width: 80vw;
+    }
+
+    .right {
+        float: none;
+    }
+
 }
 
-@media (max-width: 1250px){
-    label{
+@media (max-width: 1250px) {
+    label {
         display: flex;
     }
+}
+
+@media (max-width:698px) {
+  .left > article > p {
+        width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
