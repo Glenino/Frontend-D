@@ -388,6 +388,11 @@ input:focus {
     width: 40vw;
 }
 
+.begin > img{
+    width: 60vw;
+    height: 50vw;
+}
+
 @media (max-width:71em) {
     .super {
         grid-template-columns: 1fr 1fr;
@@ -438,6 +443,10 @@ input:focus {
 
     .right {
         float: none;
+    }
+    
+    .letters, .begin > p{
+        width: 70vw;
     }
 
 }
