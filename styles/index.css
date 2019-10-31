@@ -1,181 +1,11 @@
- .homebg {
-     background-image: url(https://data.whicdn.com/images/186189639/large.jpg);
-     max-height: 40vh;
-     height: 40vh;
- }
-
- .mariobg {
-     background-image: url(https://i.pinimg.com/originals/05/06/45/050645f9efabc06487aa1cb76369c35b.jpg);
-     max-height: 40vh;
-     height: 40vh;
- }
-
- .pokemonbg {
-     background-image: url(https://www.numerama.com/content/uploads/2015/11/pokemon-list.jpg);
-     max-height: 40vh;
-     height: 40vh;
- }
-
- ul {
-     list-style: none;
-     margin: 0;
-     padding: 0.5em;
-     display: flex;
-     min-width: 10vw;
-
- }
-
- li {
-
-     padding: 0;
-     justify-content: flex-end;
-     margin-left: 0.5em;
-     margin-right: 0.5em;
-     min-width: 2vw;
- }
-
- li:hover {
-     background-color: gold;
- }
-
- li:active {
-     background-color: silver;
- }
-
- li:first-of-type {
-     margin-right: auto;
- }
-
- h2 {
-     font-size: 1.3em;
- }
-
- a {
-     display: flex;
-     text-decoration: none;
-     color: black;
- }
-
- img {
-     width: 3em;
-     height: 3em;
-
- }
-
- body {
-     margin: 0;
+  /* normale elementen met/zonder selectoren*/
+body {
+     margin: 0; /* ruimte om de body weg*/
      background-color: aliceblue;
      font-family: fantasy;
  }
 
- /* waar .grid voor staat: https://www.quackit.com/css/grid/tutorial/create_a_grid.cfm*/
-
- .grid {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-gap: 1vw;
- }
-
- .grid > div {
-     padding: 0.1em;
-     background: gold;
-     text-align: center;
-     border: 0.2em solid black;
-     margin-left: 1em;
-     margin-right: 1em;
-     grid-template-columns: repeat(auto-fill, minmax(18.75em, 1fr));
-     grid-auto-rows: 1fr;
- }
-
- .grid > div > article > img {
-     padding: 1em;
- }
-
- .begin,
- h1 {
-     padding: .75em;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: center;
-     width: 25em;
-     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
- }
-
- .home {
-     width: 5em;
-     height: 5em;
-     padding: 1em;
- }
-
- .wit {
-     width: 3em;
-     height: 3em;
-     background-color: white;
- }
-
- .sonicbg {
-     background-image: url(https://3.bp.blogspot.com/-ykan-HLvdWo/XElAHCJGuJI/AAAAAAAAHz0/hKSYmi3sUZsrNZcaKrkV1keRMDrBLEbBgCHMYCw/s1600/this-is-fanart-sonic-mania-know-your-meme.jpg);
-     background-repeat: no-repeat;
-     max-height: 40vh;
-     background-size: cover;
-     height: 40vh;
- }
-
- .inazumabg {
-     background-image: url(https://wallpapercave.com/wp/wp1823328.jpg);
-     min-height: 40vh;
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 40vh;
- }
-
- /*Voor de draaiende afbeeldingen: https://www.w3schools.com/howto/howto_css_flip_card.asp*/
-
- .flip-card-inner {
-     position: relative;
-     width: 100%;
-     height: 100%;
-     text-align: center;
-     transition: transform 0.8s;
-     transform-style: preserve-3d;
- }
-
- /* Do an horizontal flip when you move the mouse over the flip box container */
- .flip-card:hover .flip-card-inner {
-     transform: rotateY(180deg);
- }
-
- /* Position the front and back side */
- .flip-card-front,
-.flip-card-back {
-     position: absolute;
-     width: 100%;
-     height: 100%;
-     backface-visibility: hidden;
- }
-
- .flip-card-back {
-     transform: rotateY(180deg);
- }
-
- .flip-card-front {
-     background: gold;
- }
-
  /*bron titel: https://codepen.io/web205/pen/GRKGKJO*/
-
- .letters {
-     font: 3em/.75 'Source Sans Pro', Arial, sans-serif;
-     text-transform: uppercase;
-     color: gold;
-     text-align: center;
-     padding-bottom: 1em;
-     padding-top: 1em;
-     letter-spacing: -6px;
- }
 
  h1 {
      text-shadow: 1px 1px 1px red,
@@ -216,6 +46,209 @@
      -webkit-backface-visibility: hidden;
  }
 
+ .begin,
+ h1 {
+     padding: .75em;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center; /*voor de img en h1 op de mario pagina*/
+     width: 25em;
+     text-align: center; /* voor de p' die de class .begin bezitten*/
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ h2 {
+     font-size: 1.3em; /* lettergrootte*/
+ }
+
+ ul {
+     list-style: none;
+     margin: 0;
+     padding: 0.5em;
+     display: flex;
+     min-width: 10vw;
+
+ }
+
+ li {
+
+     padding: 0;
+     justify-content: flex-end;
+     margin-left: 0.5em;
+     margin-right: 0.5em;
+     min-width: 2vw;
+ }
+
+ li:hover {
+     background-color: gold;
+ }
+
+ li:active {
+     background-color: silver;
+ }
+
+ li:first-of-type {
+     margin-right: auto;
+ }
+
+ a {
+     display: flex;
+     text-decoration: none;
+     color: black;
+ } /* hele grid op de home is link, zonder dit ziet het er rommelig uit*/
+
+ img {
+     width: 3em;
+     height: 3em;
+
+ }
+
+ fieldset {
+     background-color: gold;
+     padding: 0.1em;
+     margin: 1em;
+     border: 0.1em solid black;
+     width: 40vw;
+ }
+
+ input,
+ legend,
+ p,
+ label {
+     margin-left: 0.5em;
+     margin-right: 0.5em;
+ }
+
+ label:hover {
+     background-color: lightgreen;
+ }
+
+ input:focus {
+     background-color: skyblue;
+ }
+
+ button {
+     font-family: fantasy;
+     background-color: gold;
+     margin: 1.48em;
+     padding: 1em;
+     border: 0.2em solid black;
+ }
+
+/* classes in de nav*/
+
+ .homebg {
+     background-image: url(https://data.whicdn.com/images/186189639/large.jpg);
+     max-height: 40vh;
+     height: 40vh;
+ }
+
+ .mariobg {
+     background-image: url(https://i.pinimg.com/originals/05/06/45/050645f9efabc06487aa1cb76369c35b.jpg);
+     max-height: 40vh;
+     height: 40vh;
+ }
+
+ .pokemonbg {
+     background-image: url(https://www.numerama.com/content/uploads/2015/11/pokemon-list.jpg);
+     max-height: 40vh;
+     height: 40vh;
+ }
+
+ .wit {
+     width: 3em;
+     height: 3em;
+     background-color: white;
+ }
+
+ .sonicbg {
+     background-image: url(https://3.bp.blogspot.com/-ykan-HLvdWo/XElAHCJGuJI/AAAAAAAAHz0/hKSYmi3sUZsrNZcaKrkV1keRMDrBLEbBgCHMYCw/s1600/this-is-fanart-sonic-mania-know-your-meme.jpg);
+     background-repeat: no-repeat;
+     max-height: 40vh;
+     background-size: cover;
+     height: 40vh;
+ }
+
+ .inazumabg {
+     background-image: url(https://wallpapercave.com/wp/wp1823328.jpg);
+     min-height: 40vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 40vh;
+ }
+
+/* waar .grid voor staat: https://www.quackit.com/css/grid/tutorial/create_a_grid.cfm*/
+
+/* classes grid op de homepagina*/
+
+ .grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 1vw;
+ }
+
+ .grid > div {
+     padding: 0.1em;
+     background: gold;
+     text-align: center;
+     border: 0.2em solid black;
+     margin-left: 1em;
+     margin-right: 1em;
+     grid-template-columns: repeat(auto-fill, minmax(18.75em, 1fr));
+     grid-auto-rows: 1fr;
+ }
+
+ .grid > div > article > img {
+     padding: 1em;
+ }
+
+ .home {
+     width: 5em;
+     height: 5em;
+     padding: 1em;
+ } /* afbeeldingen in de grid op de home*/
+
+ /*Voor de draaiende afbeeldingen: https://www.w3schools.com/howto/howto_css_flip_card.asp*/
+
+/* classes afbeeldinganimatie op de homepagina in het grid*/
+
+ .flip-card-inner {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+ }
+
+ /* zorgt ervoor dat de afbeelding horizontaal flipt als je erover heen hovert */
+ .flip-card:hover .flip-card-inner {
+     transform: rotateY(180deg);
+ }
+
+ /* positioneert de voor en achterkant van de afbeelding */
+ .flip-card-front,
+ .flip-card-back {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     backface-visibility: hidden;
+ }
+
+ .flip-card-back {
+     transform: rotateY(180deg);
+ }
+
+ .flip-card-front {
+     background: gold;
+ }
+
+/*transitie javascript met css: https://css-tricks.com/controlling-css-animations-transitions-javascript/*/
+
+/* classes javascriptelement op de home*/
+
  .js {
      border: 0.2em solid black;
      padding: 0.1em;
@@ -230,13 +263,7 @@
      opacity: 1;
  }
 
- button {
-     font-family: fantasy;
-     background-color: gold;
-     margin: 1.48em;
-     padding: 1em;
-     border: 0.2em solid black;
- }
+ /*bron titel: https://codepen.io/web205/pen/GRKGKJO*/
 
  .fop {
      text-shadow: 1px 1px 1px red,
@@ -264,40 +291,7 @@
      text-align: center;
  }
 
- fieldset {
-     background-color: gold;
-     padding: 0.1em;
-     margin: 1em;
-     border: 0.1em solid black;
-     width: 40vw;
- }
-
- input,
- legend,
- p,
- label {
-     margin-left: 0.5em;
-     margin-right: 0.5em;
- }
-
- label:hover {
-     background-color: lightgreen;
- }
-
- input:focus {
-     background-color: skyblue;
- }
-
- .party img {
-     width: 6em;
-     height: 6em;
- }
-
- .right {
-     float: right;
-     width: 40vw;
-     margin-right: 10em;
- }
+/* classes grid op de mario detailpagina*/
 
  .super {
      display: grid;
@@ -321,6 +315,14 @@
      color: white;
  }
 
+
+ .party img {
+     width: 6em;
+     height: 6em;
+ }
+
+/* content op de mario pagina, om ze links te krijgen*/
+
  .left {
      margin-left: 1em;
 
@@ -340,42 +342,54 @@
      height: 50vw;
  }
 
- @media (max-width:71em) {
-     .super {
-         grid-template-columns: 1fr 1fr;
-          grid-gap: 2vw;
-     }
+ .right {
+     float: right;
+     width: 40vw;
+     margin-right: 10em;
+ } 
 
+ /*bron titel: https://codepen.io/web205/pen/GRKGKJO*/
+
+/* class regenboogletters*/
+
+ .letters {
+     font: 3em/.75 'Source Sans Pro', Arial, sans-serif;
+     text-transform: uppercase;
+     color: gold;
+     text-align: center;
+     padding-bottom: 1em;
+     padding-top: 1em;
+     letter-spacing: -6px;
  }
 
- @media (max-width: 41em) {
+/* media queries*/
 
-     .super {
-         grid-template-columns: 1fr;
-         grid-gap: 2vw;
+ @media (max-width: 78em) {
+     label {
+         display: flex;
      }
 
-     .letters {
-         width: 60vw;
-         padding-bottom: 1em;
-         padding-top: 1em;
-     }
-
-     .left > article > p {
-         width: 70vw;
+     fieldset {
          margin-left: auto;
          margin-right: auto;
      }
 
+     /*Bron hoe ik mijn knop in het midden krijg door display: blockhttps://stackoverflow.com/questions/11799159/trying-to-align-html-button-at-the-center-of-the-my-page*/
+
+     form > button {
+         margin-left: auto;
+         margin-right: auto;
+         display: block
+     }
  }
 
-@media (max-width: 46em){
-         
-       .grid {
-         grid-template-columns: 1fr;
+ @media (max-width:71em) {
+     .super {
+         grid-template-columns: 1fr 1fr;
          grid-gap: 2vw;
      }
-}
+
+ }
 
  @media (max-width: 65em) {
      .left > article > img {
@@ -409,28 +423,38 @@
 
  }
 
- @media (max-width: 78em) {
-     label {
-         display: flex;
-     }
+@media (max-width: 46em) {
 
-     fieldset {
-         margin-left: auto;
-         margin-right: auto;
-     }
-
-     /*Bron hoe ik mijn knop in het midden krijg door display: blockhttps://stackoverflow.com/questions/11799159/trying-to-align-html-button-at-the-center-of-the-my-page*/
-
-     form > button {
-         margin-left: auto;
-         margin-right: auto;
-         display: block
+     .grid {
+         grid-template-columns: 1fr;
+         grid-gap: 2vw;
      }
  }
 
  @media (max-width:44em) {
      .left > article > p {
          width: 60vw;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+ }
+
+ @media (max-width: 41em) {
+
+     .super {
+         grid-template-columns: 1fr;
+         grid-gap: 2vw;
+     }
+
+     .letters {
+         width: 60vw;
+         padding-bottom: 1em;
+         padding-top: 1em;
+     }
+
+     .left > article > p {
+         width: 70vw;
          margin-left: auto;
          margin-right: auto;
      }
