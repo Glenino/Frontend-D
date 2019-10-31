@@ -1,467 +1,438 @@
-.homebg {
-    background-image: url(https://data.whicdn.com/images/186189639/large.jpg);
-    max-height: 40vh;
-    height: 40vh;
-}
+ .homebg {
+     background-image: url(https://data.whicdn.com/images/186189639/large.jpg);
+     max-height: 40vh;
+     height: 40vh;
+ }
 
-.mariobg {
-    background-image: url(https://i.pinimg.com/originals/05/06/45/050645f9efabc06487aa1cb76369c35b.jpg);
-    max-height: 40vh;
-    height: 40vh;
-}
+ .mariobg {
+     background-image: url(https://i.pinimg.com/originals/05/06/45/050645f9efabc06487aa1cb76369c35b.jpg);
+     max-height: 40vh;
+     height: 40vh;
+ }
 
-.pokemonbg {
-    background-image: url(https://www.numerama.com/content/uploads/2015/11/pokemon-list.jpg);
-    max-height: 40vh;
-    height: 40vh;
-}
+ .pokemonbg {
+     background-image: url(https://www.numerama.com/content/uploads/2015/11/pokemon-list.jpg);
+     max-height: 40vh;
+     height: 40vh;
+ }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0.5em;
-    display: flex;
-    min-width: 10vw;
+ ul {
+     list-style: none;
+     margin: 0;
+     padding: 0.5em;
+     display: flex;
+     min-width: 10vw;
 
-}
+ }
 
-li {
+ li {
 
-    padding: 0;
-    justify-content: flex-end;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    min-width: 2vw;
-}
+     padding: 0;
+     justify-content: flex-end;
+     margin-left: 0.5em;
+     margin-right: 0.5em;
+     min-width: 2vw;
+ }
 
-li:hover {
-    background-color: gold;
-}
+ li:hover {
+     background-color: gold;
+ }
 
-li:active {
-    background-color: silver;
-}
+ li:active {
+     background-color: silver;
+ }
 
-li:first-of-type {
-    margin-right: auto;
-}
+ li:first-of-type {
+     margin-right: auto;
+ }
 
-h2 {
-    font-size: 1.3em;
-}
+ h2 {
+     font-size: 1.3em;
+ }
 
-a {
-    display: flex;
-    text-decoration: none;
-    color: black;
-}
+ a {
+     display: flex;
+     text-decoration: none;
+     color: black;
+ }
 
-img {
-    width: 3em;
-    height: 3em;
+ img {
+     width: 3em;
+     height: 3em;
 
-}
+ }
 
-body {
-    margin: 0;
-    background-color: aliceblue;
-    font-family: fantasy;
-}
+ body {
+     margin: 0;
+     background-color: aliceblue;
+     font-family: fantasy;
+ }
 
-/* waar .grid voor staat: https://www.quackit.com/css/grid/tutorial/create_a_grid.cfm*/
+ /* waar .grid voor staat: https://www.quackit.com/css/grid/tutorial/create_a_grid.cfm*/
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2vw;
-}
+ .grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 1vw;
+ }
 
-.grid > section {
-    padding: 0.1em;
-    background: gold;
-    text-align: center;
-    border: 0.2em solid black;
-    margin-left: 1em;
-    margin-right: 1em;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-auto-rows: 1fr;
-}
+ .grid > div {
+     padding: 0.1em;
+     background: gold;
+     text-align: center;
+     border: 0.2em solid black;
+     margin-left: 1em;
+     margin-right: 1em;
+     grid-template-columns: repeat(auto-fill, minmax(18.75em, 1fr));
+     grid-auto-rows: 1fr;
+ }
 
-.grid > section > article > img {
-    padding: 1em;
-}
+ .grid > div > article > img {
+     padding: 1em;
+ }
 
-.begin,
-h1 {
-    padding: .75em;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 400px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
+ .begin,
+ h1 {
+     padding: .75em;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 25em;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+ }
 
-.right {
-    justify-content: flex-end;
-}
+ .home {
+     width: 5em;
+     height: 5em;
+     padding: 1em;
+ }
 
-.home {
-    width: 5em;
-    height: 5em;
-    padding: 1em;
-}
+ .wit {
+     width: 3em;
+     height: 3em;
+     background-color: white;
+ }
 
-.wit {
-    width: 3em;
-    height: 3em;
-    background-color: white;
-}
+ .sonicbg {
+     background-image: url(https://3.bp.blogspot.com/-ykan-HLvdWo/XElAHCJGuJI/AAAAAAAAHz0/hKSYmi3sUZsrNZcaKrkV1keRMDrBLEbBgCHMYCw/s1600/this-is-fanart-sonic-mania-know-your-meme.jpg);
+     background-repeat: no-repeat;
+     max-height: 40vh;
+     background-size: cover;
+     height: 40vh;
+ }
 
-.sonicbg {
-    background-image: url(https://3.bp.blogspot.com/-ykan-HLvdWo/XElAHCJGuJI/AAAAAAAAHz0/hKSYmi3sUZsrNZcaKrkV1keRMDrBLEbBgCHMYCw/s1600/this-is-fanart-sonic-mania-know-your-meme.jpg);
-    background-repeat: no-repeat;
-    max-height: 40vh;
-    background-size: cover;
-    height: 40vh;
-}
+ .inazumabg {
+     background-image: url(https://wallpapercave.com/wp/wp1823328.jpg);
+     min-height: 40vh;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 40vh;
+ }
 
-.inazumabg {
-    background-image: url(https://wallpapercave.com/wp/wp1823328.jpg);
-    min-height: 40vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-}
+ /*Voor de draaiende afbeeldingen: https://www.w3schools.com/howto/howto_css_flip_card.asp*/
 
-/*Voor de draaiende afbeeldingen: https://www.w3schools.com/howto/howto_css_flip_card.asp*/
+ .flip-card-inner {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+ }
 
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
+ /* Do an horizontal flip when you move the mouse over the flip box container */
+ .flip-card:hover .flip-card-inner {
+     transform: rotateY(180deg);
+ }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front,
+ /* Position the front and back side */
+ .flip-card-front,
 .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     backface-visibility: hidden;
+ }
+
+ .flip-card-back {
+     transform: rotateY(180deg);
+ }
+
+ .flip-card-front {
+     background: gold;
+ }
+
+ /*bron titel: https://codepen.io/web205/pen/GRKGKJO*/
+
+ .letters {
+     font: 3em/.75 'Source Sans Pro', Arial, sans-serif;
+     text-transform: uppercase;
+     color: gold;
+     text-align: center;
+     padding-bottom: 1em;
+     padding-top: 1em;
+     letter-spacing: -6px;
+ }
+
+ h1 {
+     text-shadow: 1px 1px 1px red,
+         2px 2px 1px orange,
+         3px 3px 1px yellow,
+         4px 4px 1px green,
+         5px 5px 1px lightblue,
+         6px 6px 1px purple,
+         7px 7px 1px pink,
+         8px 8px 1px red,
+         9px 9px 1px orange,
+         10px 10px 1px yellow,
+         11px 11px 1px green,
+         12px 12px 1px lightblue,
+         13px 13px 1px purple,
+         14px 14px 1px pink,
+         15px 15px 1px red,
+         16px 16px 1px orange,
+         17px 17px 1px yellow,
+         18px 18px 1px green,
+         19px 19px 1px lightblue,
+         20px 20px 1px purple,
+         21px 21px 1px pink,
+         22px 22px 1px red,
+         23px 23px 1px orange,
+         24px 24px 1px yellow,
+         25px 25px 1px green,
+         26px 26px 1px lightblue,
+         27px 27px 1px purple,
+         28px 28px 1px pink,
+         29px 29px 1px red,
+         30px 30px 1px orange;
+
+     -webkit-transform: skewY(-15deg);
+     -moz-transform: skewY(-15deg);
+     transform: skewY(-15deg);
+
+     -webkit-backface-visibility: hidden;
+ }
+
+ .js {
+     border: 0.2em solid black;
+     padding: 0.1em;
+     margin: 1em;
+     opacity: 0;
+     transition: 5s;
+     width: 30vw;
+     background-color: white;
+ }
+
+ .js.yay {
+     opacity: 1;
+ }
+
+ button {
+     font-family: fantasy;
+     background-color: gold;
+     margin: 1.48em;
+     padding: 1em;
+     border: 0.2em solid black;
+ }
+
+ .fop {
+     text-shadow: 1px 1px 1px red,
+         2px 2px 1px orange,
+         3px 3px 1px yellow,
+         4px 4px 1px green,
+         5px 5px 1px lightblue,
+         6px 6px 1px purple,
+         7px 7px 1px pink,
+         8px 8px 1px red,
+         9px 9px 1px orange,
+         10px 10px 1px yellow,
+         11px 11px 1px green,
+         12px 12px 1px lightblue,
+         13px 13px 1px purple,
+         14px 14px 1px pink,
+         15px 15px 1px red,
+         16px 16px 1px orange,
+         17px 17px 1px yellow,
+         18px 18px 1px green,
+         19px 19px 1px lightblue,
+         20px 20px 1px purple,
+         21px 21px 1px pink;
+
+     text-align: center;
+ }
+
+ fieldset {
+     background-color: gold;
+     padding: 0.1em;
+     margin: 1em;
+     border: 0.1em solid black;
+     width: 40vw;
+ }
+
+ input,
+ legend,
+ p,
+ label {
+     margin-left: 0.5em;
+     margin-right: 0.5em;
+ }
+
+ label:hover {
+     background-color: lightgreen;
+ }
+
+ input:focus {
+     background-color: skyblue;
+ }
+
+ .party img {
+     width: 6em;
+     height: 6em;
+ }
+
+ .right {
+     float: right;
+     width: 40vw;
+     margin-right: 10em;
+ }
+
+ .super {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-columns: repeat(auto-fill, minmax(1fr));
+     grid-auto-rows: 1fr 1fr;
+     grid-row-gap: 1vw;
+ }
+
+ .super > .party {
+     padding: 0.1em;
+     background: red;
+     text-align: center;
+     border: 0.2em solid black;
+     margin-left: 1em;
+     margin-right: 1em;
+ }
+
+ .super > .party > h4,
+ .super > .party > p {
+     color: white;
+ }
+
+ .left {
+     margin-left: 1em;
+
+ }
+
+ .left > article > img {
+     height: 20vw;
+     width: 30vw;
+ }
+
+ .left > article > p {
+     width: 40vw;
+ }
+
+ .begin > img {
+     width: 60vw;
+     height: 50vw;
+ }
+
+ @media (max-width:71em) {
+     .super {
+         grid-template-columns: 1fr 1fr;
+          grid-gap: 2vw;
+     }
+
+ }
+
+ @media (max-width: 41em) {
+
+     .super {
+         grid-template-columns: 1fr;
+         grid-gap: 2vw;
+     }
+
+     .letters {
+         width: 60vw;
+         padding-bottom: 1em;
+         padding-top: 1em;
+     }
+
+     .left > article > p {
+         width: 70vw;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+ }
+
+@media (max-width: 46em){
+         
+       .grid {
+         grid-template-columns: 1fr;
+         grid-gap: 2vw;
+     }
 }
 
-.flip-card-back {
-    transform: rotateY(180deg);
-}
+ @media (max-width: 65em) {
+     .left > article > img {
+         height: 40vw;
+         width: 50vw;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+     }
 
-.flip-card-front {
-    background: gold;
-}
+     .left > article > p {
+         width: 45vw;
+         margin-left: auto;
+         margin-right: auto;
+     }
 
-/*bron titel: https://codepen.io/web205/pen/GRKGKJO*/
+     .right {
+         float: none;
+     }
 
-.letters {
-    font: 3em/.75 'Source Sans Pro', Arial, sans-serif;
-    text-transform: uppercase;
-    color: gold;
-    text-align: center;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    letter-spacing: -6px;
-}
+     .letters,
+     .begin > p {
+         width: 70vw;
+     }
 
-h1 {
-    text-shadow: 1px 1px 1px red,
-        2px 2px 1px orange,
-        3px 3px 1px yellow,
-        4px 4px 1px green,
-        5px 5px 1px lightblue,
-        6px 6px 1px purple,
-        7px 7px 1px pink,
-        8px 8px 1px red,
-        9px 9px 1px orange,
-        10px 10px 1px yellow,
-        11px 11px 1px green,
-        12px 12px 1px lightblue,
-        13px 13px 1px purple,
-        14px 14px 1px pink,
-        15px 15px 1px red,
-        16px 16px 1px orange,
-        17px 17px 1px yellow,
-        18px 18px 1px green,
-        19px 19px 1px lightblue,
-        20px 20px 1px purple,
-        21px 21px 1px pink,
-        22px 22px 1px red,
-        23px 23px 1px orange,
-        24px 24px 1px yellow,
-        25px 25px 1px green,
-        26px 26px 1px lightblue,
-        27px 27px 1px purple,
-        28px 28px 1px pink,
-        29px 29px 1px red,
-        30px 30px 1px orange;
+     .letters {
+         padding-bottom: 2em;
+         padding-top: 2em;
+     }
 
-    -webkit-transform: skewY(-15deg);
-    -moz-transform: skewY(-15deg);
-    transform: skewY(-15deg);
+ }
 
-    -webkit-backface-visibility: hidden;
-}
+ @media (max-width: 78em) {
+     label {
+         display: flex;
+     }
 
-.js {
-    border: 0.2em solid black;
-    padding: 0.1em;
-    margin: 1em;
-    opacity: 0;
-    transition: 5s;
-    width: 30vw;
-    background-color: white;
-}
+     fieldset {
+         margin-left: auto;
+         margin-right: auto;
+     }
 
-.js.yay {
-    opacity: 1;
-}
+     /*Bron hoe ik mijn knop in het midden krijg door display: blockhttps://stackoverflow.com/questions/11799159/trying-to-align-html-button-at-the-center-of-the-my-page*/
 
-button {
-    font-family: fantasy;
-    background-color: gold;
-    margin: 1.48em;
-    padding: 1em;
-    border: 0.2em solid black;
-}
+     form > button {
+         margin-left: auto;
+         margin-right: auto;
+         display: block
+     }
+ }
 
-.fop {
-    text-shadow: 1px 1px 1px red,
-        2px 2px 1px orange,
-        3px 3px 1px yellow,
-        4px 4px 1px green,
-        5px 5px 1px lightblue,
-        6px 6px 1px purple,
-        7px 7px 1px pink,
-        8px 8px 1px red,
-        9px 9px 1px orange,
-        10px 10px 1px yellow,
-        11px 11px 1px green,
-        12px 12px 1px lightblue,
-        13px 13px 1px purple,
-        14px 14px 1px pink,
-        15px 15px 1px red,
-        16px 16px 1px orange,
-        17px 17px 1px yellow,
-        18px 18px 1px green,
-        19px 19px 1px lightblue,
-        20px 20px 1px purple,
-        21px 21px 1px pink;
+ @media (max-width:44em) {
+     .left > article > p {
+         width: 60vw;
+         margin-left: auto;
+         margin-right: auto;
+     }
 
-    text-align: center;
-}
-
-fieldset {
-    background-color: gold;
-    padding: 0.1em;
-    margin: 1em;
-    border: 0.1em solid black;
-    width: 40vw;
-}
-
-input,
-legend,
-p,
-label {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-
-label:hover {
-    background-color: lightgreen;
-}
-
-input:focus {
-    background-color: skyblue;
-}
-
-
-.main {
-    height: 31em;
-    width: 62em;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.hoofdimage {
-    width: 70vw;
-    height: 60vw;
-}
-
-.afbeelding {
-    width: 19em;
-    height: 19em;
-}
-
-
-.party img {
-    width: 6em;
-    height: 6em;
-}
-
-.foto img {
-    width: 31em;
-    height: 18em;
-}
-
-.hoofdfoto img {
-    width: 50em;
-    height: 33em;
-}
-
-.right {
-    float: right;
-    width: 40vw;
-    margin-right: 1em;
-}
-
-
-.tabel {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.odyssey {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.super {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-columns: repeat(auto-fill, minmax(1fr));
-    grid-auto-rows: 1fr 1fr;
-    grid-row-gap: 1em;
-}
-
-.super > .party {
-    padding: 0.1em;
-    background: red;
-    text-align: center;
-    border: 0.2em solid black;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-.super > .party > h4,
-.super > .party > p {
-    color: white;
-}
-
-.left {
-    margin-left: 1em;
-
-}
-
-.left > article > img {
-    height: 20vw;
-    width: 30vw;
-}
-
-.left > article > p {
-    width: 40vw;
-}
-
-.begin > img{
-    width: 60vw;
-    height: 50vw;
-}
-
-@media (max-width:71em) {
-    .super {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (max-width: 41em) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-
-    .super {
-        grid-template-columns: 1fr;
-    }
-
-    .letters {
-        width: 60vw;
-    }
-
-    .left > article > p {
-        width: 70vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
-
-@media (max-width: 65em) {
-    .left > article > img {
-        height: 40vw;
-        width: 50vw;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
-    .left > article > p {
-        width: 45vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
-    .begin > p {
-        width: 80vw;
-    }
-
-    .right {
-        float: none;
-    }
-    
-    .letters, .begin > p{
-        width: 70vw;
-    }
-
-}
-
-@media (max-width: 78em) {
-    label {
-        display: flex;
-    }
-}
-
-@media (max-width:44em) {
-    .left > article > p {
-        width: 60vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
+ }

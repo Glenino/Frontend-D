@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="nl">
 
 <head>
     <title>My favorite games</title>
@@ -46,7 +46,7 @@
                     <legend>Positie</legend>
                     <p>Kies de positie waar je het meest tot aangetrokken voelt.</p>
                     <label>
-                        <input type="radio" name="positie" value="aanvaller" />Aanvaller</label>
+                        <input type="radio" name="positie" value="aanvaller" required/>Aanvaller</label>
                     <label>
                         <input type="radio" name="positie" value="middenvelder" />Middenvelder
                     </label>
@@ -74,7 +74,7 @@
 
                     </label>
                     <label>
-                        <input type="radio" name="element" value="lucht" />Lucht
+                        <input type="radio" name="element" value="lucht" required />Lucht
                     </label>
 
                 </fieldset>
@@ -84,12 +84,13 @@
                     <p>Kies de move die je speler moet bezitten.</p>
 
                     <label>
-                        <input type="radio" name="move" value="veil" />Mermaid's veil</label>
+                        <input type="radio" name="move" value="veil" />Fire tornado</label>
                     <label>
-                        <input type="radio" name="move" value="god" />God hand
+                        <input type="radio" name="move" value="god" required/>God Knows 
                     </label>
                 </fieldset>
-                <button class="speler">En jij bent......</button>
+                <button>En jij bent......</button>
+                
             </form>
         </div>
     </main>
